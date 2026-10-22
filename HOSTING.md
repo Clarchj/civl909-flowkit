@@ -11,6 +11,11 @@ The pictures are your lecture slides and tutorial sheets, so do not put them on 
 **GitHub Pages:** free plan needs a public repository. Do not use it for the slides.
 **Home Wi-Fi only (testing):** on the PC run `python -m http.server 8766` inside `dist`, open `http://<the PC's address>:8766` in Safari on the phone. It works while the PC is on and you are on the same Wi-Fi; iOS will not run the offline worker on plain http, so it does not work offline this way.
 
+## GitHub
+The code is in the private repository **Clarchj/civl909-flowkit**. Every push runs `.github/workflows/pages.yml`: it rebuilds `dist/` in the cloud (Python only) and
+1. saves it as a downloadable artifact (repository, Actions, the latest run, Artifacts: `civl909-app`): unzip it and upload the folder to Cloudflare Pages (above);
+2. publishes it to **GitHub Pages** if Pages is available. **On a free account Pages works only for a public repository, and a public repository would publish the lecture slides and tutorial pages.** So the deploy step fails while the repository is private on the free plan: that is expected. Choose one: keep it private and use Cloudflare Pages with the artifact, or upgrade to GitHub Pro (private Pages), or make the repository public (Settings, Danger zone) after deciding you are happy to publish the slides, then Settings, Pages, Source: GitHub Actions.
+
 ## 2. Install on the iPhone
 1. Open the address in **Safari** (not Chrome: only Safari can add Home Screen apps on iOS).
 2. Share button, **Add to Home Screen**, Add. The "909" icon appears.

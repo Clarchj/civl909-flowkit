@@ -28,6 +28,11 @@ jobs:
         run: python build.py --subject subjects/civl909
       - name: Keep only what the app needs
         run: rm -f dist/_template.html
+      # the built app as a plain download (Actions, the run, Artifacts): upload it to a private host such as Cloudflare Pages
+      - uses: actions/upload-artifact@v4
+        with:
+          name: civl909-app
+          path: dist
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
