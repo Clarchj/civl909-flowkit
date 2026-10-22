@@ -1,0 +1,13 @@
+{
+  "id": "sample",
+  "title": "Sample quiz",
+  "track": "main",
+  "score": "",
+  "source": "Replace with your paper or question bank.",
+  "items": [
+    {"n": 1, "marks": 1, "week": 1, "topic": "stress", "kind": "concept", "answer": "B",
+     "q": "Stress is",
+     "options": {"A": "force times area", "B": "force per unit area", "C": "area per unit force", "D": "force per unit length"},
+     "why": "σ = P/A.", "flag": ""}
+  ]
+}

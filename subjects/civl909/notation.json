@@ -1,0 +1,1857 @@
+{
+ "about": "Every symbol that appears in CIVL909 (weeks 1-10). Edit here; run build_notation.py to regenerate the chart, the Anki file and the collision list.",
+ "obtained_values": {
+  "given": "stated in the question",
+  "chart": "read off a chart or table",
+  "rule": "a fixed value or simple rule",
+  "calculated": "worked out",
+  "given or calculated": "either, depending on the question"
+ },
+ "symbols": [
+  {
+   "symbol": "B",
+   "meaning": "footing width (least plan dimension)",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n001"
+  },
+  {
+   "symbol": "L",
+   "meaning": "footing length",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n002"
+  },
+  {
+   "symbol": "B', L'",
+   "meaning": "effective dimensions (B-2ex, L-2ey)",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n003"
+  },
+  {
+   "symbol": "Bf, Bp",
+   "meaning": "footing / plate width",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n004"
+  },
+  {
+   "symbol": "D, Df",
+   "meaning": "founding (embedment) depth",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n005"
+  },
+  {
+   "symbol": "Dw",
+   "meaning": "depth of water table below surface",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n006"
+  },
+  {
+   "symbol": "z",
+   "meaning": "depth below load / point of interest",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n007"
+  },
+  {
+   "symbol": "r",
+   "meaning": "horizontal offset from a point load",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n008"
+  },
+  {
+   "symbol": "R",
+   "meaning": "radius of a circular loaded area",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n009"
+  },
+  {
+   "symbol": "H",
+   "meaning": "layer / compressible-layer thickness",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n010"
+  },
+  {
+   "symbol": "b, l",
+   "meaning": "sides of a Newmark rectangle",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n011"
+  },
+  {
+   "symbol": "ex, ey",
+   "meaning": "load eccentricities",
+   "unit": "m",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n012"
+  },
+  {
+   "symbol": "Q",
+   "meaning": "point load",
+   "unit": "kN (kN/m if a line load)",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n013"
+  },
+  {
+   "symbol": "V, H",
+   "meaning": "vertical / horizontal load components",
+   "unit": "kN (or kN/m for strip)",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n014"
+  },
+  {
+   "symbol": "A",
+   "meaning": "footing bearing area",
+   "unit": "m²",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n015"
+  },
+  {
+   "symbol": "q, qapp",
+   "meaning": "applied (contact) pressure",
+   "unit": "kPa (= kN/m²)",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n016"
+  },
+  {
+   "symbol": "qn,qn,app",
+   "meaning": "net applied pressure",
+   "unit": "kPa",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n017"
+  },
+  {
+   "symbol": "qs",
+   "meaning": "surface surcharge",
+   "unit": "kPa",
+   "group": "Geometry & Loads",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n018"
+  },
+  {
+   "symbol": "qf",
+   "meaning": "ultimate bearing capacity",
+   "unit": "kPa",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n019"
+  },
+  {
+   "symbol": "qn,ult",
+   "meaning": "net ultimate bearing capacity",
+   "unit": "kPa",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n020"
+  },
+  {
+   "symbol": "qa",
+   "meaning": "allowable bearing pressure",
+   "unit": "kPa",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n021"
+  },
+  {
+   "symbol": "Nc,Nq,Nγ",
+   "meaning": "bearing capacity factors",
+   "unit": "–",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n022"
+  },
+  {
+   "symbol": "sc,sq,sγ",
+   "meaning": "shape factors",
+   "unit": "–",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n023"
+  },
+  {
+   "symbol": "dc,dq,dγ",
+   "meaning": "depth factors",
+   "unit": "–",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n024"
+  },
+  {
+   "symbol": "ic,iq,iγ",
+   "meaning": "inclination factors",
+   "unit": "–",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n025"
+  },
+  {
+   "symbol": "F",
+   "meaning": "factor of safety (shear failure)",
+   "unit": "–",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n026"
+  },
+  {
+   "symbol": "c",
+   "meaning": "cohesion (general)",
+   "unit": "kPa",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n027"
+  },
+  {
+   "symbol": "cu, φu",
+   "meaning": "undrained strength (kPa) / friction angle",
+   "unit": "kPa ; degrees (φu = 0)",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n028"
+  },
+  {
+   "symbol": "c', φ'",
+   "meaning": "drained strength (kPa) / friction angle",
+   "unit": "kPa ; degrees",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n029"
+  },
+  {
+   "symbol": "γ",
+   "meaning": "unit weight (bulk/total)",
+   "unit": "kN/m³",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n030"
+  },
+  {
+   "symbol": "γsat",
+   "meaning": "saturated unit weight",
+   "unit": "kN/m³",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n031"
+  },
+  {
+   "symbol": "γdry",
+   "meaning": "dry unit weight",
+   "unit": "kN/m³",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n032"
+  },
+  {
+   "symbol": "γ'",
+   "meaning": "effective/buoyant unit weight (γsat-γw)",
+   "unit": "kN/m³",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n033"
+  },
+  {
+   "symbol": "γw",
+   "meaning": "unit weight of water (≈9.81)",
+   "unit": "kN/m³",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n034"
+  },
+  {
+   "symbol": "Gs",
+   "meaning": "specific gravity of solids",
+   "unit": "–",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n035"
+  },
+  {
+   "symbol": "e,e0,e1,ep,ef",
+   "meaning": "void ratio (all forms)",
+   "unit": "–",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n036"
+  },
+  {
+   "symbol": "wL",
+   "meaning": "liquid limit",
+   "unit": "% (dimensionless fraction)",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n037"
+  },
+  {
+   "symbol": "N",
+   "meaning": "SPT blow count (raw)",
+   "unit": "– (blows/300 mm)",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n038"
+  },
+  {
+   "symbol": "N60",
+   "meaning": "energy-corrected (60%) count",
+   "unit": "–",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n039"
+  },
+  {
+   "symbol": "N1",
+   "meaning": "overburden-/dilatancy-corrected count",
+   "unit": "–",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n040"
+  },
+  {
+   "symbol": "ER",
+   "meaning": "hammer energy ratio",
+   "unit": "%",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n041"
+  },
+  {
+   "symbol": "CN",
+   "meaning": "overburden correction factor",
+   "unit": "–",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n042"
+  },
+  {
+   "symbol": "Cw",
+   "meaning": "water-table reduction factor",
+   "unit": "–",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n043"
+  },
+  {
+   "symbol": "qc",
+   "meaning": "CPT cone resistance",
+   "unit": "MPa (= MN/m²) [also kPa]",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n044"
+  },
+  {
+   "symbol": "fs",
+   "meaning": "CPT sleeve friction",
+   "unit": "kPa",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n045"
+  },
+  {
+   "symbol": "uw",
+   "meaning": "CPT pore water pressure",
+   "unit": "kPa",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n046"
+  },
+  {
+   "symbol": "splate,sfooting",
+   "meaning": "plate / footing settlement",
+   "unit": "mm (or m)",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n047"
+  },
+  {
+   "symbol": "si",
+   "meaning": "immediate (elastic) settlement",
+   "unit": "mm (or m)",
+   "group": "Settlement (Elastic / Immediate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n048"
+  },
+  {
+   "symbol": "E, Eu",
+   "meaning": "Young's modulus (drained / undrained)",
+   "unit": "kPa or MPa (MN/m²)",
+   "group": "Settlement (Elastic / Immediate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n049"
+  },
+  {
+   "symbol": "μ",
+   "meaning": "Poisson's ratio",
+   "unit": "–",
+   "group": "Settlement (Elastic / Immediate)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n050"
+  },
+  {
+   "symbol": "If",
+   "meaning": "elastic influence factor",
+   "unit": "–",
+   "group": "Settlement (Elastic / Immediate)",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n051"
+  },
+  {
+   "symbol": "F1, F2",
+   "meaning": "Steinbrenner coefficients",
+   "unit": "–",
+   "group": "Settlement (Elastic / Immediate)",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n052"
+  },
+  {
+   "symbol": "μ0, μ1",
+   "meaning": "Burland embedment / layer factors",
+   "unit": "–",
+   "group": "Settlement (Elastic / Immediate)",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n053"
+  },
+  {
+   "symbol": "sc",
+   "meaning": "consolidation settlement",
+   "unit": "mm (or m)",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n054"
+  },
+  {
+   "symbol": "σ'0",
+   "meaning": "initial effective stress (mid-clay)",
+   "unit": "kPa",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n055"
+  },
+  {
+   "symbol": "σ'f",
+   "meaning": "final effective stress",
+   "unit": "kPa",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n056"
+  },
+  {
+   "symbol": "σ'pc(σ'c)",
+   "meaning": "preconsolidation pressure",
+   "unit": "kPa",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n057"
+  },
+  {
+   "symbol": "σ'v,σ'h",
+   "meaning": "vertical / horizontal effective stress",
+   "unit": "kPa",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n058"
+  },
+  {
+   "symbol": "Δσ",
+   "meaning": "stress increase from load",
+   "unit": "kPa",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n059"
+  },
+  {
+   "symbol": "OCR",
+   "meaning": "over-consolidation ratio (σ'pc/σ'0)",
+   "unit": "–",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n060"
+  },
+  {
+   "symbol": "Cc",
+   "meaning": "compression index (virgin slope)",
+   "unit": "–",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n061"
+  },
+  {
+   "symbol": "Cr",
+   "meaning": "recompression index (rebound slope)",
+   "unit": "–",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n062"
+  },
+  {
+   "symbol": "av",
+   "meaning": "coefficient of compressibility",
+   "unit": "m²/kN (or 1/kPa)",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n063"
+  },
+  {
+   "symbol": "mv",
+   "meaning": "volume compressibility (av/(1+e0))",
+   "unit": "m²/MN (or m²/kN, 1/kPa)",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n064"
+  },
+  {
+   "symbol": "μs",
+   "meaning": "Skempton–Bjerrum settlement coefficient",
+   "unit": "–",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n065"
+  },
+  {
+   "symbol": "A",
+   "meaning": "pore-pressure coefficient (Skempton)",
+   "unit": "–",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n066"
+  },
+  {
+   "symbol": "α",
+   "meaning": "Skempton–Bjerrum geometry factor",
+   "unit": "–",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n067"
+  },
+  {
+   "symbol": "σz",
+   "meaning": "vertical stress increase at depth",
+   "unit": "kPa",
+   "group": "Stress at Depth",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n068"
+  },
+  {
+   "symbol": "Ip",
+   "meaning": "point-load influence factor",
+   "unit": "–",
+   "group": "Stress at Depth",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n069"
+  },
+  {
+   "symbol": "Ic",
+   "meaning": "circular-area influence coefficient",
+   "unit": "–",
+   "group": "Stress at Depth",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n070"
+  },
+  {
+   "symbol": "Ir",
+   "meaning": "rectangular (Newmark) influence factor",
+   "unit": "–",
+   "group": "Stress at Depth",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n071"
+  },
+  {
+   "symbol": "m, n",
+   "meaning": "Newmark ratios (b/z, l/z)",
+   "unit": "–",
+   "group": "Stress at Depth",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n072"
+  },
+  {
+   "symbol": "Tv",
+   "meaning": "time factor",
+   "unit": "–",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n073"
+  },
+  {
+   "symbol": "cv",
+   "meaning": "coefficient of consolidation",
+   "unit": "m²/yr (also m²/s, cm²/min)",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n074"
+  },
+  {
+   "symbol": "t",
+   "meaning": "elapsed time",
+   "unit": "yr / days / min (keep consistent)",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n075"
+  },
+  {
+   "symbol": "tp",
+   "meaning": "time to complete primary consolidation",
+   "unit": "yr (or same unit as t)",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n076"
+  },
+  {
+   "symbol": "t50,t90",
+   "meaning": "times to 50% / 90% (curve fit)",
+   "unit": "min (or as tested)",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n077"
+  },
+  {
+   "symbol": "d",
+   "meaning": "drainage path (H/2 double, H single)",
+   "unit": "m",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n078"
+  },
+  {
+   "symbol": "U",
+   "meaning": "average degree of consolidation",
+   "unit": "% (–)",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n079"
+  },
+  {
+   "symbol": "Uz",
+   "meaning": "local degree of consolidation at depth z",
+   "unit": "% (–)",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n080"
+  },
+  {
+   "symbol": "u, u0",
+   "meaning": "excess pore pressure (current / initial)",
+   "unit": "kPa",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n081"
+  },
+  {
+   "symbol": "k",
+   "meaning": "permeability",
+   "unit": "m/s",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n082"
+  },
+  {
+   "symbol": "st, sult",
+   "meaning": "settlement at time t / ultimate",
+   "unit": "mm (or m)",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n083"
+  },
+  {
+   "symbol": "Ss",
+   "meaning": "secondary compression settlement",
+   "unit": "mm (or m)",
+   "group": "Secondary / Schmertmann",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n084"
+  },
+  {
+   "symbol": "Cα",
+   "meaning": "secondary compression index",
+   "unit": "–",
+   "group": "Secondary / Schmertmann",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n085"
+  },
+  {
+   "symbol": "Cαe",
+   "meaning": "modified secondary index (Cα/(1+ep))",
+   "unit": "–",
+   "group": "Secondary / Schmertmann",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n086"
+  },
+  {
+   "symbol": "Iz",
+   "meaning": "strain influence factor",
+   "unit": "–",
+   "group": "Secondary / Schmertmann",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n087"
+  },
+  {
+   "symbol": "C1, C2",
+   "meaning": "Schmertmann depth / creep corrections",
+   "unit": "–",
+   "group": "Secondary / Schmertmann",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n088"
+  },
+  {
+   "symbol": "Ka,Kp,K0",
+   "meaning": "active / passive / at-rest coefficients",
+   "unit": "–",
+   "group": "Earth Pressure",
+   "weeks": "1-5",
+   "obtained": "rule",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n089"
+  },
+  {
+   "symbol": "pa, pp",
+   "meaning": "active / passive pressure",
+   "unit": "kPa",
+   "group": "Earth Pressure",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n090"
+  },
+  {
+   "symbol": "z0",
+   "meaning": "tension crack depth",
+   "unit": "m",
+   "group": "Earth Pressure",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n091"
+  },
+  {
+   "symbol": "β",
+   "meaning": "backfill slope angle",
+   "unit": "degrees",
+   "group": "Earth Pressure",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n092"
+  },
+  {
+   "symbol": "δ",
+   "meaning": "wall friction angle",
+   "unit": "degrees",
+   "group": "Earth Pressure",
+   "weeks": "1-5",
+   "obtained": "given or calculated",
+   "source": "Lingo deck / W1-5 reference",
+   "id": "n093"
+  },
+  {
+   "symbol": "Pu",
+   "meaning": "ultimate pile capacity (the target)",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n094"
+  },
+  {
+   "symbol": "Ps",
+   "meaning": "shaft resistance",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n095"
+  },
+  {
+   "symbol": "Pb",
+   "meaning": "base resistance",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n096"
+  },
+  {
+   "symbol": "W",
+   "meaning": "pile self-weight ≈ Vp·γp − U_water",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n097"
+  },
+  {
+   "symbol": "fs",
+   "meaning": "unit skin friction: clay αcu, sand Kσ′v·tanδ",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n098"
+  },
+  {
+   "symbol": "fb",
+   "meaning": "unit base resistance: clay Nc·cu, sand Nq·σ′v",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n099"
+  },
+  {
+   "symbol": "As",
+   "meaning": "shaft area πDL",
+   "unit": "m²",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n100"
+  },
+  {
+   "symbol": "Ab",
+   "meaning": "base area πD²/4",
+   "unit": "m²",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n101"
+  },
+  {
+   "symbol": "D",
+   "meaning": "pile diameter",
+   "unit": "m",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n102"
+  },
+  {
+   "symbol": "L",
+   "meaning": "embedded pile length",
+   "unit": "m",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n103"
+  },
+  {
+   "symbol": "z",
+   "meaning": "depth from ground surface",
+   "unit": "m",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n104"
+  },
+  {
+   "symbol": "h",
+   "meaning": "depth to the pile base",
+   "unit": "m",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n105"
+  },
+  {
+   "symbol": "po",
+   "meaning": "overburden pressure at base level γs·h",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n106"
+  },
+  {
+   "symbol": "γs",
+   "meaning": "soil unit weight (γ′ below the water table)",
+   "unit": "kN/m³",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n107"
+  },
+  {
+   "symbol": "γp",
+   "meaning": "pile unit weight",
+   "unit": "kN/m³",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n108"
+  },
+  {
+   "symbol": "γsat",
+   "meaning": "saturated unit weight",
+   "unit": "kN/m³",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n109"
+  },
+  {
+   "symbol": "cu",
+   "meaning": "undrained shear strength (may vary with depth)",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n110"
+  },
+  {
+   "symbol": "cu,ave",
+   "meaning": "average cu over the shaft, or over 2D below the base",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n111"
+  },
+  {
+   "symbol": "ca",
+   "meaning": "pile–soil adhesion = αcu (sand: 0)",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n112"
+  },
+  {
+   "symbol": "α",
+   "meaning": "adhesion reduction factor, 0 to 1",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "chart",
+   "source": "W7-8 reference sheet",
+   "id": "n113"
+  },
+  {
+   "symbol": "Nc",
+   "meaning": "bearing factor for clay; 9 if L/D ≥ 4",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "chart",
+   "source": "W7-8 reference sheet",
+   "id": "n114"
+  },
+  {
+   "symbol": "Nq",
+   "meaning": "bearing factor for sand, function of φ",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "chart",
+   "source": "W7-8 reference sheet",
+   "id": "n115"
+  },
+  {
+   "symbol": "φ",
+   "meaning": "friction angle (peak φp or critical-state φcs)",
+   "unit": "degrees",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n116"
+  },
+  {
+   "symbol": "φp",
+   "meaning": "peak friction angle",
+   "unit": "degrees",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n117"
+  },
+  {
+   "symbol": "φcs",
+   "meaning": "critical-state friction angle",
+   "unit": "degrees",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n118"
+  },
+  {
+   "symbol": "δ",
+   "meaning": "pile–soil interface friction angle, δ ≤ φ",
+   "unit": "degrees",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "chart",
+   "source": "W7-8 reference sheet",
+   "id": "n119"
+  },
+  {
+   "symbol": "σn",
+   "meaning": "normal stress on the shaft = σ′h",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n120"
+  },
+  {
+   "symbol": "σ′v",
+   "meaning": "vertical effective stress",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n121"
+  },
+  {
+   "symbol": "σ′h",
+   "meaning": "horizontal effective stress = Kσ′v",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n122"
+  },
+  {
+   "symbol": "K",
+   "meaning": "lateral earth-pressure coefficient (pile)",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "chart",
+   "source": "W7-8 reference sheet",
+   "id": "n123"
+  },
+  {
+   "symbol": "Ko",
+   "meaning": "at-rest coefficient 1 − sinφcs",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "rule",
+   "source": "W7-8 reference sheet",
+   "id": "n124"
+  },
+  {
+   "symbol": "OCR",
+   "meaning": "over-consolidation ratio",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n125"
+  },
+  {
+   "symbol": "Po",
+   "meaning": "lateral force per unit length",
+   "unit": "kN/m",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n126"
+  },
+  {
+   "symbol": "N",
+   "meaning": "SPT blow count (2nd + 3rd 150 mm)",
+   "unit": "blows",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n127"
+  },
+  {
+   "symbol": "N̄",
+   "meaning": "average N over the shaft",
+   "unit": "blows",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n128"
+  },
+  {
+   "symbol": "Nb",
+   "meaning": "N at the base",
+   "unit": "blows",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n129"
+  },
+  {
+   "symbol": "An,Bn,Cn",
+   "meaning": "empirical SPT constants",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "rule",
+   "source": "W7-8 reference sheet",
+   "id": "n130"
+  },
+  {
+   "symbol": "n",
+   "meaning": "number of piles in a group",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n131"
+  },
+  {
+   "symbol": "S",
+   "meaning": "pile spacing, centre to centre (≥ 2.5D)",
+   "unit": "m",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n132"
+  },
+  {
+   "symbol": "B,W,L (block)",
+   "meaning": "equivalent block width, length, depth",
+   "unit": "m",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n133"
+  },
+  {
+   "symbol": "σ′vb",
+   "meaning": "effective vertical stress at the block base",
+   "unit": "kPa",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n134"
+  },
+  {
+   "symbol": "F (block)",
+   "meaning": "block side-friction coefficient (sand)",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "rule",
+   "source": "W7-8 reference sheet",
+   "id": "n135"
+  },
+  {
+   "symbol": "Pg,s",
+   "meaning": "group capacity as n single piles = n·Pu",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n136"
+  },
+  {
+   "symbol": "Pu,b",
+   "meaning": "group capacity as an equivalent block",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n137"
+  },
+  {
+   "symbol": "Pu,g",
+   "meaning": "governing group capacity = min(n·Pu, Pu,b)",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n138"
+  },
+  {
+   "symbol": "η",
+   "meaning": "group efficiency",
+   "unit": "– (%)",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n139"
+  },
+  {
+   "symbol": "Pa",
+   "meaning": "allowable load = Pu,g/FS",
+   "unit": "kN",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n140"
+  },
+  {
+   "symbol": "FS",
+   "meaning": "factor of safety (2.5 to 3)",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "given",
+   "source": "W7-8 reference sheet",
+   "id": "n141"
+  },
+  {
+   "symbol": "S/D",
+   "meaning": "normalised settlement in a load test (10 % rule)",
+   "unit": "–",
+   "group": "Piles: capacity",
+   "weeks": "7-8",
+   "obtained": "calculated",
+   "source": "W7-8 reference sheet",
+   "id": "n142"
+  },
+  {
+   "symbol": "Es",
+   "meaning": "soil Young’s modulus",
+   "unit": "MPa (convert to kPa)",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "given",
+   "source": "interface (program.js)",
+   "id": "n143"
+  },
+  {
+   "symbol": "Ep",
+   "meaning": "pile Young’s modulus",
+   "unit": "GPa (convert to MPa)",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "given",
+   "source": "interface (program.js)",
+   "id": "n144"
+  },
+  {
+   "symbol": "RA",
+   "meaning": "area ratio (1 for a solid pile)",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "given",
+   "source": "interface (program.js)",
+   "id": "n145"
+  },
+  {
+   "symbol": "ν",
+   "meaning": "Poisson’s ratio of the soil",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "given",
+   "source": "interface (program.js)",
+   "id": "n146"
+  },
+  {
+   "symbol": "h",
+   "meaning": "depth to the rigid base",
+   "unit": "m",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "given",
+   "source": "interface (program.js)",
+   "id": "n147"
+  },
+  {
+   "symbol": "K (pile)",
+   "meaning": "pile stiffness factor = (Ep/Es)·RA",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n148"
+  },
+  {
+   "symbol": "I",
+   "meaning": "settlement influence factor",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "chart",
+   "source": "interface (program.js)",
+   "id": "n149"
+  },
+  {
+   "symbol": "Rv",
+   "meaning": "correction for Poisson’s ratio",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "chart",
+   "source": "interface (program.js)",
+   "id": "n150"
+  },
+  {
+   "symbol": "Rh",
+   "meaning": "correction for a rigid base at finite depth",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "chart",
+   "source": "interface (program.js)",
+   "id": "n151"
+  },
+  {
+   "symbol": "S (settlement)",
+   "meaning": "pile head settlement = P·I·Rv·Rh/(D·Es)",
+   "unit": "mm",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n152"
+  },
+  {
+   "symbol": "So",
+   "meaning": "settlement of one pile under unit load",
+   "unit": "m/kN",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n153"
+  },
+  {
+   "symbol": "s",
+   "meaning": "centre-to-centre distance to a neighbouring pile",
+   "unit": "m",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n154"
+  },
+  {
+   "symbol": "s/D",
+   "meaning": "spacing ratio",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n155"
+  },
+  {
+   "symbol": "αF",
+   "meaning": "interaction factor between two piles",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "chart",
+   "source": "interface (program.js)",
+   "id": "n156"
+  },
+  {
+   "symbol": "Nh",
+   "meaning": "correction of αF for a rigid base",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "chart",
+   "source": "interface (program.js)",
+   "id": "n157"
+  },
+  {
+   "symbol": "Σα",
+   "meaning": "sum of interaction factors of the neighbours",
+   "unit": "–",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n158"
+  },
+  {
+   "symbol": "Sk",
+   "meaning": "settlement of pile k in a group = So·P(1 + Σα)",
+   "unit": "mm",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n159"
+  },
+  {
+   "symbol": "P (per pile)",
+   "meaning": "load on each pile = total load / n",
+   "unit": "kN",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n160"
+  },
+  {
+   "symbol": "R",
+   "meaning": "ring radius of a circular group (Dg = 2R + D)",
+   "unit": "m",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "calculated",
+   "source": "interface (program.js)",
+   "id": "n161"
+  },
+  {
+   "symbol": "Dg",
+   "meaning": "diameter of a circular pile group",
+   "unit": "m",
+   "group": "Piles: settlement",
+   "weeks": "9-10",
+   "obtained": "given",
+   "source": "interface (program.js)",
+   "id": "n162"
+  },
+  {
+   "symbol": "Δe",
+   "meaning": "change in void ratio under the stress change",
+   "unit": "–",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n163"
+  },
+  {
+   "symbol": "Sc",
+   "meaning": "primary consolidation settlement",
+   "unit": "m (mm)",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n164"
+  },
+  {
+   "symbol": "Ib",
+   "meaning": "influence factor of a loaded rectangle (settlement, from L/B)",
+   "unit": "–",
+   "group": "Settlement (Elastic / Immediate)",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n165"
+  },
+  {
+   "symbol": "Iσ",
+   "meaning": "influence factor for vertical stress under a rectangle corner (m, n)",
+   "unit": "–",
+   "group": "Stress at Depth",
+   "weeks": "1-5",
+   "obtained": "chart",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n166"
+  },
+  {
+   "symbol": "Δu",
+   "meaning": "change in pore water pressure (water table moved)",
+   "unit": "kPa",
+   "group": "Consolidation (Amount)",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n167"
+  },
+  {
+   "symbol": "sL",
+   "meaning": "settlement limit (allowable settlement)",
+   "unit": "mm",
+   "group": "Field Tests (SPT / CPT / Plate)",
+   "weeks": "1-5",
+   "obtained": "given",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n168"
+  },
+  {
+   "symbol": "Hdr",
+   "meaning": "drainage path length (half the thickness if double drainage)",
+   "unit": "m",
+   "group": "Consolidation (Time)",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n169"
+  },
+  {
+   "symbol": "qnf",
+   "meaning": "net ultimate bearing capacity as written in the tutorials (qf − γD)",
+   "unit": "kPa",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n170"
+  },
+  {
+   "symbol": "kB",
+   "meaning": "net capacity gained per metre of width (½γ′Nγ)",
+   "unit": "kPa/m",
+   "group": "Bearing Capacity",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n171"
+  },
+  {
+   "symbol": "σ′v0",
+   "meaning": "effective vertical stress at the foundation level",
+   "unit": "kPa",
+   "group": "Soil Strength & Weight",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n172"
+  },
+  {
+   "symbol": "σ′vp",
+   "meaning": "effective vertical stress at the depth of the Schmertmann peak",
+   "unit": "kPa",
+   "group": "Secondary / Schmertmann",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n173"
+  },
+  {
+   "symbol": "Izp",
+   "meaning": "peak strain influence factor (at B/2 below a square footing)",
+   "unit": "–",
+   "group": "Secondary / Schmertmann",
+   "weeks": "1-5",
+   "obtained": "calculated",
+   "source": "added for the flow map (used in the worked problems)",
+   "id": "n174"
+  },
+  {
+   "symbol": "Ka,Kp",
+   "meaning": "active / passive coefficient (1 − sinφ′)/(1 + sinφ′) and its inverse (Rankine)",
+   "unit": "–",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "rule",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n175"
+  },
+  {
+   "symbol": "K0",
+   "meaning": "at-rest coefficient 1 − sinφ′ (Jaky); × OCR^0.5 if over-consolidated",
+   "unit": "–",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "rule",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n176"
+  },
+  {
+   "symbol": "pa,pp",
+   "meaning": "active / passive pressure at depth z: Kγz − 2c√K / Kγz + 2c√K",
+   "unit": "kPa",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "calculated",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n177"
+  },
+  {
+   "symbol": "Pa,Pp",
+   "meaning": "total active / passive thrust per metre of wall (area of the pressure diagram)",
+   "unit": "kN/m",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "calculated",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n178"
+  },
+  {
+   "symbol": "Pw",
+   "meaning": "hydrostatic thrust ½γw·hw²",
+   "unit": "kN/m",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "calculated",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n179"
+  },
+  {
+   "symbol": "z0",
+   "meaning": "depth of the tension crack 2c/(γ√Ka); 2cu/γ for φu = 0",
+   "unit": "m",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "calculated",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n180"
+  },
+  {
+   "symbol": "Hc",
+   "meaning": "critical depth of an unsupported vertical cut in clay, 4cu/γ",
+   "unit": "m",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "calculated",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n181"
+  },
+  {
+   "symbol": "β",
+   "meaning": "slope of the retained surface",
+   "unit": "degrees",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "given",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n182"
+  },
+  {
+   "symbol": "cw",
+   "meaning": "adhesion between wall and soil",
+   "unit": "kPa",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "given",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n183"
+  },
+  {
+   "symbol": "Kac",
+   "meaning": "cohesion coefficient 2√(Ka(1 + cw/c′)) in Coulomb theory",
+   "unit": "–",
+   "group": "Retaining walls",
+   "weeks": "11-12",
+   "obtained": "rule",
+   "source": "W11-12 lectures (Lateral earth pressure I and II)",
+   "id": "n184"
+  }
+ ],
+ "not_traps": [
+  "Nq",
+  "z"
+ ],
+ "about_not_traps": "symbols the automatic \"same symbol, different meaning\" check flags but which mean the same idea; edit by hand"
+}

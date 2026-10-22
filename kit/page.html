@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<title>{{TITLE}}</title>{{HEAD}}<style>{{CSS}}</style></head><body data-tab="map">
+<header id="top"><div id="brand"></div><div id="tracks"></div>
+  <nav id="tabs"><button data-tab="map">Map</button><button data-tab="library">Library</button><button data-tab="notation">Notation</button><button data-tab="quiz">Quiz</button><button data-tab="exam" id="examtab" hidden>Exam</button></nav>
+  <button id="nlkbtn" data-act="nlk" title="Look up a symbol (Ctrl+K or /)"><span>Look up a symbol</span><kbd>Ctrl K</kbd></button></header>
+<section id="tab-map">
+<div id="bar"><button id="cbtn" data-cp="toggle" title="Question, picture, written solution and notes">Companion</button><button id="pprev" data-act="pprev" title="Previous problem">‹</button><button id="pcur" data-act="tab" data-tab="library" title="Choose another problem"></button><button id="pnext" data-act="pnext" title="Next problem">›</button>
+<div id="findwrap"><input id="find" placeholder="Find a block…" autocomplete="off"><div id="hits"></div></div>
+<button id="toolbtn" data-act="tool" title="Drag on empty canvas: select a box of blocks, or pan. Space or middle button always pans.">Pan</button><button id="keybtn" data-act="key" title="What the logos and colours mean">Key</button><button id="grpbtn" data-act="groups" title="Show or hide the group frames">Groups</button>
+<button data-act="fit" title="Fit everything (F or Home)">Fit</button><button data-act="sel" title="Zoom to the selection (Z)">Zoom to selection</button><button data-act="tidy" title="Put every block back where the layout places it">Tidy</button><button id="wirebtn" data-act="wiring" title="Plug / unplug wires (W)">Wiring</button><button id="undobtn" data-act="undo" title="Undo (Ctrl+Z)">Undo</button>
+<button id="morebtn" title="More tools">⋯</button><div id="goal"></div></div>
+<div id="board" hidden></div>
+<div id="main"><div id="view"><div id="world"></div>
+<div id="jmenu"></div><div id="jump"><button data-act="jprev" title="Previous step  [">‹</button><button id="jcur" data-act="jmenu" title="Jump to a step">Steps</button><button data-act="jnext" title="Next step  ]">›</button></div><div id="key"></div>
+<aside id="insp"></aside><div id="minibox"><svg id="mini"></svg></div>
+<div id="zoom"><button data-act="zin" aria-label="Zoom in">+</button><div id="zl" title="Zoom (0 = 100%)">100%</div><button data-act="zout" aria-label="Zoom out">−</button><button data-act="one" aria-label="100%">1:1</button></div></div>
+<aside id="comp"><div id="comptabs"></div><div id="compbody"></div></aside></div></section>
+<section class="page" id="tab-library" hidden></section><section class="page" id="tab-notation" hidden></section><section class="page" id="tab-quiz" hidden></section><section class="page" id="tab-exam" hidden></section>
+<div id="toast"></div>
+<div id="mod"><div id="modwin"></div></div>
+<div id="nlk"><div id="nlkwin"><input id="nlkq" placeholder="Look up a symbol or word: qf, cu, Nγ, settlement, shaft…" autocomplete="off"><div id="nlkbody"></div><div id="nlkfoot"><span>Enter: open the first result</span><span>Esc: close</span><span>Ctrl K: toggle</span></div></div></div>
+<div id="lb"><div id="lbwin"><div id="lbhead"><span id="lbtitle"></span><span class="sp"></span><button data-lb="out">−</button><button data-lb="in">+</button><button data-lb="reset">Reset</button><button data-lb="x" aria-label="Close">×</button></div>
+<div id="lbbody"><div id="lbview"><div id="lbstage"></div><div class="hint">Wheel or pinch to zoom, drag to move</div></div><div id="lbside"><div class="k" id="lbk">How it was found</div><div id="lbhow"></div></div></div></div></div>
+<script>
+{{SCRIPT}}
+</script>{{TAIL}}</body></html>

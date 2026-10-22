@@ -1,0 +1,215 @@
+{
+ "exam": "CIVL365/909 Mid-Session Examination 2026",
+ "date": "2026-09-01",
+ "weeks": "1-5",
+ "marks": 40,
+ "score": "27.5 / 40",
+ "source": "photos of the paper sent in the chat \"Mid-session exam prep crash course\" (not recoverable from that chat; add them to source_images/)",
+ "section_I": [
+  {
+   "n": 1,
+   "marks": 1,
+   "week": 1,
+   "topic": "bearing capacity, undrained",
+   "kind": "concept",
+   "answer": "D",
+   "flag": "",
+   "why": "φu = 0 gives Nq = 1, Nγ = 0, so q_net = cu·Nc: no B, no D left."
+  },
+  {
+   "n": 2,
+   "marks": 1,
+   "week": 1,
+   "topic": "shape factors",
+   "kind": "concept",
+   "answer": "A",
+   "flag": "",
+   "why": "cohesionless surface footing: only the Nγ term; 0.3γBNγ (circle) / 0.4γBNγ (square) = 3/4."
+  },
+  {
+   "n": 3,
+   "marks": 2,
+   "week": 2,
+   "topic": "SPT overburden correction",
+   "kind": "calc",
+   "answer": "C",
+   "flag": "formula-dependent: √(100/σ′) gives 23.4 → C (25); Peck 0.77·log(1915/σ′) gives 19.3 → B (20). Check which C_N the course uses.",
+   "why": "σ′ at 3 m = 18·1.5 + (19.3 − 9.81)·1.5 = 41.2 kPa → N₁ = C_N·15."
+  },
+  {
+   "n": 4,
+   "marks": 2,
+   "week": 2,
+   "topic": "water table correction",
+   "kind": "concept",
+   "answer": "A",
+   "flag": "",
+   "why": "WT deeper than B below the base: no effect (600); at the base: half (300); 1.5 m = B below: no effect (600)."
+  },
+  {
+   "n": 5,
+   "marks": 2,
+   "week": 3,
+   "topic": "consolidation settlement, NC clay",
+   "kind": "calc",
+   "answer": "D",
+   "flag": "",
+   "why": "e0 = w·Gs = 1.215; s = Cc/(1+e0)·H·log(120/100) = 16 mm."
+  },
+  {
+   "n": 6,
+   "marks": 1,
+   "week": 4,
+   "topic": "consolidation time",
+   "kind": "concept",
+   "answer": "B",
+   "flag": "strict Terzaghi theory: time does not depend on the stress increase (B); some keys give A.",
+   "why": "more compressible (mv up) → cv down → slower; more permeable → faster; Δσ does not enter cv."
+  },
+  {
+   "n": 7,
+   "marks": 2,
+   "week": 4,
+   "topic": "drainage path",
+   "kind": "concept",
+   "answer": "A",
+   "flag": "",
+   "why": "t ∝ d²; single drainage doubles d → 4 times slower."
+  },
+  {
+   "n": 8,
+   "marks": 1,
+   "week": 3,
+   "topic": "compression index",
+   "kind": "concept",
+   "answer": "C",
+   "flag": "",
+   "why": "the slope of e vs log σ′ is Cc."
+  },
+  {
+   "n": 9,
+   "marks": 2,
+   "week": 3,
+   "topic": "void ratio and thickness",
+   "kind": "calc",
+   "answer": "B",
+   "flag": "",
+   "why": "H ∝ 1 + e: 2.4 · (1 + 0.5)/(1 + 1) = 1.8 cm."
+  },
+  {
+   "n": 10,
+   "marks": 2,
+   "week": 1,
+   "topic": "failure modes",
+   "kind": "concept",
+   "answer": "B",
+   "flag": "",
+   "why": "J (sharp peak) = general shear, slip to surface; K = local; L (no peak) = punching, no heave."
+  },
+  {
+   "n": 11,
+   "marks": 1,
+   "week": 1,
+   "topic": "shear strength test",
+   "kind": "concept",
+   "answer": "A",
+   "flag": "",
+   "why": "c and φ come from a triaxial (or direct shear) test."
+  },
+  {
+   "n": 12,
+   "marks": 1,
+   "week": 1,
+   "topic": "bearing capacity factors",
+   "kind": "concept",
+   "answer": "D",
+   "flag": "",
+   "why": "Nc, Nq, Nγ depend only on φ."
+  },
+  {
+   "n": 13,
+   "marks": 1,
+   "week": 1,
+   "topic": "failure modes",
+   "kind": "concept",
+   "answer": "C",
+   "flag": "",
+   "why": "very dense sand, shallow footing → general shear."
+  },
+  {
+   "n": 14,
+   "marks": 1,
+   "week": 2,
+   "topic": "allowable bearing pressure",
+   "kind": "concept",
+   "answer": "C",
+   "flag": "",
+   "why": "the lesser of q_ult/F and the pressure that gives the allowable settlement."
+  }
+ ],
+ "section_II": [
+  {
+   "n": 1,
+   "marks": 4,
+   "week": 1,
+   "topic": "bearing capacity, strip, water table at surface",
+   "answer": "≈ 2686 kPa",
+   "flag": "",
+   "lines": [
+    "γ_sat, γ_w (sand) → subtract → γ′ sand = 10.19 kN/m³",
+    "γ_sat, γ_w (silt) → subtract → γ′ silt = 8.19 kN/m³",
+    "γ′ silt, 4 m → multiply → q = 32.8 kPa (silt beside the basement is the surcharge)",
+    "q, Nq = 40 → multiply → q·Nq = 1310 kPa",
+    "γ′ sand, B = 6 m, Nγ = 45 → multiply → ½γ′BNγ = 1376 kPa",
+    "c′ = 0 is a given: the c·Nc term drops",
+    "q·Nq, ½γ′BNγ → add → q_f ≈ 2686 kPa ⚑"
+   ]
+  },
+  {
+   "n": 2,
+   "marks": 4,
+   "week": 3,
+   "topic": "settlement from lowering the water table (mv method)",
+   "answer": "125 mm",
+   "flag": "convention: 125 mm keeps the dewatered sand at 20 kN/m³ (Δσ′ = 100 kPa, the common published key); 100 mm if the dewatered sand drops to 18 kN/m³ (Δσ′ = 80 kPa). Check against the marked paper.",
+   "lines": [
+    "WT drop 10 m, γ_w → multiply → Δu = −100 kPa",
+    "Δu → negate → Δσ′ at mid-clay = +100 kPa (sand unit weight unchanged)",
+    "mv = 0.25 m²/MN → convert to m²/kN → 0.25×10⁻³ m²/kN (a hidden unit change)",
+    "mv, Δσ′, H = 5 m → multiply → s = 0.125 m",
+    "s → convert to mm → 125 mm ⚑"
+   ]
+  },
+  {
+   "n": 3,
+   "marks": 4,
+   "week": 4,
+   "topic": "consolidation time scaling",
+   "answer": "≈ 3.56 yr",
+   "flag": "",
+   "lines": [
+    "sand above, gravel below is a given → is double drainage → d = H/2 = 10 m (not needed in the end)",
+    "U < 60 % is an adjective that picks Tv = (π/4)U²",
+    "30 mm at 2 yr, 40 mm → ratio → U₂/U₁ = 4/3",
+    "Tv ∝ t and Tv ∝ U² → t₂ = t₁(U₂/U₁)² → t₂ = 2·(4/3)² ≈ 3.56 yr ⚑",
+    "c_v cancels: it is given but not used (a distractor)"
+   ]
+  },
+  {
+   "n": 4,
+   "marks": 8,
+   "week": 5,
+   "topic": "Schmertmann settlement from a CPT profile",
+   "answer": "≈ 48 mm",
+   "flag": "from the 14 Sep worked solution; not re-run on 20 Oct (needs the Iz chart from the paper).",
+   "lines": [
+    "γ_sat, γ_w, D = 2 m → effective stress at the base → σ′ = 16.4 kPa",
+    "q_n = 140, σ′ → C1 = 1 − 0.5σ′/q_n (depth correction)",
+    "q_n, σ′ at the peak depth → Iz,peak = 0.5 + 0.1√(q_n/σ′_p)",
+    "qc of each layer → E = 2.5·qc (square footing) per layer",
+    "Iz at each layer middle, E, Δz → sum Iz·Δz/E",
+    "C1, C2, q_n, Σ → multiply → s ≈ 48 mm ⚑"
+   ]
+  }
+ ]
+}

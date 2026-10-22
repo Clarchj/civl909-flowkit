@@ -1,0 +1,38 @@
+{
+ "about": "GEOMETRY equations only: the 'hidden' ones that are not on the exam paper (areas, perimeters, effective dimensions, drainage path, pressure-diagram areas). Real equations (the f logo) are given on the paper, so they are not written on the cards. Keys are notation ids. \"front\" replaces the meaning on the card front where the notation sheet's wording already contains the equation.",
+ "equations": {
+  "n003": "B′ = B − 2e<sub>x</sub> &nbsp;&nbsp; L′ = L − 2e<sub>y</sub><div class=\"eqn\">effective width and length: only the part of the base centred on the load carries it</div>",
+  "n009": "A = πR² = πB²/4 &nbsp; (B = 2R)<div class=\"eqn\">area of a circular loaded area; circumference 2πR</div>",
+  "n007": "z = (depth to the top of the layer) + H/2<div class=\"eqn\">depth of the middle of a layer, where σ′<sub>0</sub> and Δσ are taken</div>",
+  "n010": "H<sub>below base</sub> = H<sub>layer</sub> − D<sub>f</sub><div class=\"eqn\">thickness of a layer beneath the footing is measured from the foundation level, not the ground surface</div>",
+  "n011": "m = b/z &nbsp;&nbsp; n = l/z<div class=\"eqn\">sides of the rectangle divided by the depth, for the influence chart</div>",
+  "n072": "m = b/z &nbsp;&nbsp; n = l/z<div class=\"eqn\">sides of the rectangle divided by the depth, for the influence chart</div>",
+  "n012": "e = M/V<div class=\"eqn\">eccentricity of the load: moment about the centre of the base over the vertical load; then B′ = B − 2e</div>",
+  "n015": "strip: A = B (per metre) &nbsp; square: A = B² &nbsp; rectangle: A = BL &nbsp; circle: A = πB²/4",
+  "n036": "ΔH/H = Δe/(1 + e<sub>0</sub>) &nbsp;⇒&nbsp; H ∝ (1 + e)<div class=\"eqn\">the solids height is constant, so thickness is proportional to 1 + e</div>",
+  "n100": "A<sub>s</sub> = πDL &nbsp; (square pile: 4DL)<div class=\"eqn\">shaft area: perimeter × embedded length</div>",
+  "n101": "A<sub>b</sub> = πD²/4 = π(D/2)²<div class=\"eqn\">base area of a circular pile</div>",
+  "n097": "W = V<sub>p</sub>γ<sub>p</sub> − U<sub>water</sub> ≈ A<sub>b</sub>·h·γ<sub>s</sub> = p<sub>o</sub>A<sub>b</sub><div class=\"eqn\">pile volume V<sub>p</sub> = A<sub>b</sub>L; the weight is taken equal to the soil it replaced</div>",
+  "n106": "p<sub>o</sub> = γ<sub>s</sub>·h<div class=\"eqn\">overburden pressure at the level of the base (γ′ below the water table)</div>",
+  "n133": "B = (n<sub>row</sub> − 1)S + D &nbsp;&nbsp; W = (n<sub>col</sub> − 1)S + D<div class=\"eqn\">block size from the pile spacing S and diameter D; perimeter 2(B + W), base area B·W</div>",
+  "n161": "D<sub>g</sub> = 2R + D<div class=\"eqn\">circular group: ring radius R to the pile centres, plus one diameter</div>",
+  "n162": "D<sub>g</sub> = 2R + D<div class=\"eqn\">circular group: ring radius R to the pile centres, plus one diameter</div>",
+  "n145": "R<sub>A</sub> = A<sub>net</sub>/A<sub>gross</sub> = (D² − d²)/D² (hollow) &nbsp; R<sub>A</sub> = 1 (solid)<div class=\"eqn\">area ratio: net area of pile material over gross area</div>",
+  "n169": "H<sub>dr</sub> = H/2 (drained top and bottom) &nbsp; H<sub>dr</sub> = H (one face)<div class=\"eqn\">longest drainage path</div>",
+  "n078": "d = H/2 (double drainage) &nbsp; d = H (single drainage)",
+  "n178": "triangle: P = ½pH, acts H/3 above the base &nbsp; rectangle: P = pH, acts H/2 &nbsp; trapezoid: P = ½(p<sub>1</sub> + p<sub>2</sub>)H<div class=\"eqn\">thrust = area of the pressure diagram; its line of action = centroid of that area</div>"
+ },
+ "front": {
+  "n003": "effective width and length of a footing carrying an eccentric load",
+  "n072": "ratios of a loaded rectangle's sides to the depth of the point (for the influence chart)",
+  "n078": "drainage path length (double or single drainage)",
+  "n097": "self-weight of a pile, net of the water it displaces",
+  "n100": "area of the pile shaft in contact with the soil",
+  "n101": "area of the base of a circular pile",
+  "n106": "overburden pressure at the level of the pile base",
+  "n145": "area ratio of a pile (net area of material over gross area)",
+  "n161": "ring radius of a circular pile group",
+  "n169": "longest drainage path of a clay layer",
+  "n178": "total active / passive force per metre length of wall"
+ }
+}

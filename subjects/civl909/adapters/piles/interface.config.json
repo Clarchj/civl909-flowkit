@@ -1,0 +1,88 @@
+{
+  "id": "civl909",
+  "title": "Pile capacity explorer",
+  "problems": {
+    "files": [
+      "_base",
+      "play",
+      "w7",
+      "w8",
+      "w9",
+      "quiz",
+      "w10"
+    ],
+    "only": [],
+    "start": "playground",
+    "generator": true
+  },
+  "panels": {
+    "order": [
+      "question",
+      "walk",
+      "v3",
+      "stage",
+      "results",
+      "blocks",
+      "detail"
+    ],
+    "show_desktop": [
+      "walk",
+      "v3",
+      "stage",
+      "results",
+      "blocks",
+      "detail"
+    ],
+    "show_phone": [
+      "question",
+      "walk",
+      "blocks",
+      "v3",
+      "results"
+    ],
+    "collapsed": []
+  },
+  "blocks": {
+    "start_level": "stages",
+    "step_view": "lines",
+    "values_on_blocks": false,
+    "follow": true,
+    "legend": true,
+    "verb_icons": true,
+    "wrap_scale": 0.7,
+    "lines_scale": 1.0
+  },
+  "steps": {
+    "autoplay_seconds": 5.2,
+    "flow_sentence": true
+  },
+  "layout": {
+    "default": "page",
+    "workspace_layout": "3",
+    "workspace_views": [
+      "walk",
+      "v3",
+      "sec",
+      "worked"
+    ]
+  },
+  "drawings": {
+    "phys": true,
+    "force": true,
+    "stress": true,
+    "method": true,
+    "thr": true
+  },
+  "practice": {
+    "hide_solution_default": false
+  },
+  "theme": "auto",
+  "palette": {
+    "name": "course",
+    "light": {},
+    "dark": {}
+  },
+  "type": {
+    "base_px": 15
+  }
+}

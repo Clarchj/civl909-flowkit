@@ -1,0 +1,21 @@
+.card{--bg:#fbfaf8;--ink:#1d2024;--mut:#6a727a;--line:#dedbd5;--soft:#f1efeb;--acc:#1f6f6b;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.5;text-align:center;color:var(--ink);background:var(--bg);padding:14px 12px}
+.card.nightMode,.night_mode .card{--bg:#1b1e21;--ink:#e7e5e0;--mut:#98a0a7;--line:#363b40;--soft:#25292d;--acc:#6fc2bd}
+.wrap{max-width:34rem;margin:0 auto}
+.ctx{font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;color:var(--mut);margin:0 0 .9rem}
+.meaning{font-size:1.3rem;line-height:1.4;margin:.2rem 0 .9rem}.meaning.q{font-size:.85rem;color:var(--mut);margin:0}
+.ghost{display:inline-block;min-width:2.6rem;padding:.15rem .9rem;border:1.5px dashed var(--line);border-radius:999px;color:var(--mut);font-size:1.1rem}
+.hint{margin-top:1.1rem;font-size:.8rem}.hint a{color:var(--mut);text-decoration:underline dotted}
+hr#answer{border:0;border-top:1px solid var(--line);margin:1.1rem 0 1.2rem}
+.notation{font-size:1.9rem;line-height:1.3;margin:.1rem 0 .6rem}
+.logos{display:flex;flex-wrap:wrap;gap:.4rem .5rem;align-items:center;justify-content:center;font-size:.78rem;color:var(--mut);margin:0 0 1.1rem}
+.lg{display:inline-flex;align-items:center;justify-content:center;color:#fff}.lg.pill{min-width:2.2rem;height:1.7rem;padding:0 .7rem;border-radius:999px;font-size:1rem}.lg.tile{width:1.9rem;height:1.9rem;border-radius:.45rem}
+.hidesym .sym{display:none}.hidesym .pill:after{content:"?"}.hidesym{margin-top:.2rem}.lgsep{opacity:.5}.lgn b{color:var(--ink);font-weight:600}.logos{margin-bottom:.9rem}
+.def{font-size:.95rem;margin:0 0 .8rem;padding:.45rem .7rem;background:var(--soft);border-radius:.5rem}
+.geo{margin:0 0 .9rem;padding:.5rem .8rem .55rem;border:1.5px solid var(--acc);border-radius:.6rem;font-size:.95rem}
+.geo:before{content:"Geometry · not on the paper";display:block;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);margin-bottom:.1rem}
+.geo mjx-container[display="true"]{margin:.35em 0!important}.eqn{font-size:.8rem;color:var(--mut);margin-top:.2rem}
+dl.meta{display:grid;align-items:baseline;grid-template-columns:auto 1fr;gap:.25rem .9rem;margin:0 auto 1rem;max-width:26rem;font-size:.8rem;text-align:left}
+dl.meta dt{color:var(--mut)}.urem{color:var(--mut);font-size:.8em}dl.meta dd{margin:0}
+.figs{margin-top:1rem}.figs img{max-width:100%;max-height:260px;object-fit:contain;height:auto;border:1px solid var(--line);border-radius:.4rem}.cap{font-size:.72rem;color:var(--mut);margin:.2rem 0 .9rem}
+@media (max-width:480px){.card{font-size:15px}.notation{font-size:1.7rem}}

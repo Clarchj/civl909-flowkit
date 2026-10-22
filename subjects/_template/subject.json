@@ -1,0 +1,20 @@
+{
+  "id": "template",
+  "name": "My subject",
+  "short": "SUBJ",
+  "tracks": [
+    {"id": "main", "name": "Main track", "weeks": [1, 2, 3, 4, 5, 6], "color": "#2f6bea"}
+  ],
+  "weeks": {"1": "First topic", "2": "Second topic"},
+  "types": {
+    "main": [
+      {"id": "basics",  "name": "Basics",           "color": "#2f6bea", "blurb": "One equation, a few inputs: the simplest flow map."},
+      {"id": "lookup",  "name": "Chart look-up",    "color": "#e69500", "blurb": "A value read from a chart or table, with the chart shown."},
+      {"id": "concept", "name": "Concept (multiple choice)", "color": "#4a82f5", "blurb": "Recognise the idea behind the formula."}
+    ]
+  },
+  "start": {"track": "main", "problem": "ex1"},
+  "notation": "notation.json",
+  "quiz": ["quiz/sample.json"],
+  "scripts": ["problems/**/*.js"]
+}

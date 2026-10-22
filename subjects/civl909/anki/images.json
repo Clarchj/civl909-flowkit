@@ -1,0 +1,621 @@
+{
+ "about": "Lecture slides linked to notation ids (n###). Plain quantities (B, L, z, H, gamma ...) are skipped on purpose: a picture adds nothing.",
+ "images": {
+  "w1-terz": {
+   "file": "../../../Sources/Lecture/Week1 Bearing*",
+   "page": 20,
+   "caption": "Lecture slide, week 1 p20: Terzaghi failure mechanism under a strip footing"
+  },
+  "w1-eq": {
+   "file": "../../../Sources/Lecture/Week1 Bearing*",
+   "page": 22,
+   "caption": "Lecture slide, week 1 p22: q_f = cN_c + γDN_q + ½BγN_γ with Terzaghi's factor chart"
+  },
+  "w1-hansen": {
+   "file": "../../../Sources/Lecture/Week1 Bearing*",
+   "page": 24,
+   "caption": "Lecture slide, week 1 p24: Bearing capacity factors N_c, N_q, N_γ (Hansen, Meyerhof)"
+  },
+  "w1-shape": {
+   "file": "../../../Sources/Lecture/Week1 Bearing*",
+   "page": 25,
+   "caption": "Lecture slide, week 1 p25: Simplified shape factors"
+  },
+  "w1-depth": {
+   "file": "../../../Sources/Lecture/Week1 Bearing*",
+   "page": 27,
+   "caption": "Lecture slide, week 1 p27: Simplified depth factors"
+  },
+  "w1-incl": {
+   "file": "../../../Sources/Lecture/Week1 Bearing*",
+   "page": 26,
+   "caption": "Lecture slide, week 1 p26: Inclination factors, eccentricity and effective width B′, L′"
+  },
+  "w1-water": {
+   "file": "../../../Sources/Lecture/Week1 Bearing*",
+   "page": 29,
+   "caption": "Lecture slide, week 1 p29: Effect of the water table on bearing capacity"
+  },
+  "w2-plate": {
+   "file": "../../../Sources/Lecture/Week2 Bearing*",
+   "page": 10,
+   "caption": "Lecture slide, week 2 p10: Plate load test: scaling to the footing width"
+  },
+  "w2-plate2": {
+   "file": "../../../Sources/Lecture/Week2 Bearing*",
+   "page": 11,
+   "caption": "Lecture slide, week 2 p11: Plate load test: load–settlement curve"
+  },
+  "w2-cn": {
+   "file": "../../../Sources/Lecture/Week2 Bearing*",
+   "page": 16,
+   "caption": "Lecture slide, week 2 p16: Overburden correction factor C_N (N₁ = C_N·N₆₀)"
+  },
+  "w2-qa": {
+   "file": "../../../Sources/Lecture/Week2 Bearing*",
+   "page": 18,
+   "caption": "Lecture slide, week 2 p18: Allowable bearing pressure from N (Terzaghi and Peck)"
+  },
+  "w2-cpt": {
+   "file": "../../../Sources/Lecture/Week2 Bearing*",
+   "page": 24,
+   "caption": "Lecture slide, week 2 p24: CPT profile: q_c, f_s, u_w"
+  },
+  "w2-qcN": {
+   "file": "../../../Sources/Lecture/Week2 Bearing*",
+   "page": 25,
+   "caption": "Lecture slide, week 2 p25: CPT/SPT relationship q_c = 0.4N"
+  },
+  "w3-if": {
+   "file": "../../../Sources/Lecture/Week3 *",
+   "page": 7,
+   "caption": "Lecture slide, week 3 p7: Influence factor I_f for the elastic settlement of a loaded rectangle"
+  },
+  "w3-stein": {
+   "file": "../../../Sources/Lecture/Week3 *",
+   "page": 8,
+   "caption": "Lecture slide, week 3 p8: Steinbrenner's F₁ and F₂"
+  },
+  "w3-mu": {
+   "file": "../../../Sources/Lecture/Week3 *",
+   "page": 12,
+   "caption": "Lecture slide, week 3 p12: Burland: coefficients μ₀ and μ₁"
+  },
+  "w3-nc": {
+   "file": "../../../Sources/Lecture/Week3 *",
+   "page": 24,
+   "caption": "Lecture slide, week 3 p24: Settlement of a normally consolidated clay (e–log σ′ curve)"
+  },
+  "w3-oc": {
+   "file": "../../../Sources/Lecture/Week3 *",
+   "page": 25,
+   "caption": "Lecture slide, week 3 p25: Over-consolidated clay, load below p_c (C_r)"
+  },
+  "w3-oc2": {
+   "file": "../../../Sources/Lecture/Week3 *",
+   "page": 26,
+   "caption": "Lecture slide, week 3 p26: Over-consolidated clay, load beyond p_c (C_r and C_c)"
+  },
+  "w3-stages": {
+   "file": "../../../Sources/Lecture/Week3 *",
+   "page": 20,
+   "caption": "Lecture slide, week 3 p20: e–log σ′ stages of loading"
+  },
+  "w4-ip": {
+   "file": "../../../Sources/Lecture/Week4 *",
+   "page": 8,
+   "caption": "Lecture slide, week 4 p8: Influence factor I_p for a point load"
+  },
+  "w4-fadum": {
+   "file": "../../../Sources/Lecture/Week4 *",
+   "page": 10,
+   "caption": "Lecture slide, week 4 p10: Rectangular footing: I_σ from m and n (chart)"
+  },
+  "w4-mu": {
+   "file": "../../../Sources/Lecture/Week4 *",
+   "page": 13,
+   "caption": "Lecture slide, week 4 p13: Skempton–Bjerrum settlement coefficient μ"
+  },
+  "w4-uz": {
+   "file": "../../../Sources/Lecture/Week4 *",
+   "page": 21,
+   "caption": "Lecture slide, week 4 p21: Degree of consolidation U_z with depth (isochrones)"
+  },
+  "w4-utv": {
+   "file": "../../../Sources/Lecture/Week4 *",
+   "page": 23,
+   "caption": "Lecture slide, week 4 p23: Average degree of consolidation U against time factor T_v"
+  },
+  "w4-sqrt": {
+   "file": "../../../Sources/Lecture/Week4 *",
+   "page": 25,
+   "caption": "Lecture slide, week 4 p25: Square-root-of-time method (c_v from t₉₀)"
+  },
+  "w4-log": {
+   "file": "../../../Sources/Lecture/Week4 *",
+   "page": 26,
+   "caption": "Lecture slide, week 4 p26: Logarithm-of-time method (c_v from t₅₀)"
+  },
+  "w5-sec": {
+   "file": "../../../Sources/Lecture/Week5 *",
+   "page": 6,
+   "caption": "Lecture slide, week 5 p6: Secondary compression: S_s = C_α H log(t/t_p)/(1 + e_p)"
+  },
+  "w5-ca": {
+   "file": "../../../Sources/Lecture/Week5 *",
+   "page": 7,
+   "caption": "Lecture slide, week 5 p7: Secondary compression index against water content"
+  },
+  "w5-iz": {
+   "file": "../../../Sources/Lecture/Week5 *",
+   "page": 11,
+   "caption": "Lecture slide, week 5 p11: Strain influence factor I_z (Schmertmann)"
+  },
+  "w7-eq": {
+   "file": "../../../Sources/Lecture/Week 7.pdf",
+   "page": 36,
+   "caption": "Lecture slide, week 7 p36: Static equilibrium of a pile: P_u + W − P_s − P_b = 0"
+  },
+  "w7-w": {
+   "file": "../../../Sources/Lecture/Week 7.pdf",
+   "page": 39,
+   "caption": "Lecture slide, week 7 p39: Pile weight W ≈ overburden removed, p_o = γ_s h"
+  },
+  "w7-alpha": {
+   "file": "../../../Sources/Lecture/Week 7.pdf",
+   "page": 51,
+   "caption": "Lecture slide, week 7 p51: Adhesion reduction factor α against c_u"
+  },
+  "w7-nc": {
+   "file": "../../../Sources/Lecture/Week 7.pdf",
+   "page": 57,
+   "caption": "Lecture slide, week 7 p57: Skempton's chart for N_c"
+  },
+  "w8-k": {
+   "file": "../../../Sources/Lecture/Week 8.pdf",
+   "page": 9,
+   "caption": "Lecture slide, week 8 p9: Parameter K and interface angle δ"
+  },
+  "w8-mey": {
+   "file": "../../../Sources/Lecture/Week 8.pdf",
+   "page": 23,
+   "caption": "Lecture slide, week 8 p23: Meyerhof (1959): f_s = 2N̄, f_b = 40N L/D ≤ 400N"
+  },
+  "w8-block": {
+   "file": "../../../Sources/Lecture/Week 8.pdf",
+   "page": 50,
+   "caption": "Lecture slide, week 8 p50: Pile group as an equivalent block"
+  },
+  "w8-lesser": {
+   "file": "../../../Sources/Lecture/Week 8.pdf",
+   "page": 51,
+   "caption": "Lecture slide, week 8 p51: Group capacity: the lesser of the two values"
+  },
+  "w8-test": {
+   "file": "../../../Sources/Lecture/Week 8.pdf",
+   "page": 63,
+   "caption": "Lecture slide, week 8 p63: Pile load test: load–settlement and the 10 % rule"
+  },
+  "w9-k": {
+   "file": "../../../Sources/Lecture/Week 9.pdf",
+   "page": 14,
+   "caption": "Lecture slide, week 9 p14: Single pile settlement: S = PI/(D·E_s) and K = (E_p/E_s)R_A"
+  },
+  "w9-ik": {
+   "file": "../../../Sources/Lecture/Week 9.pdf",
+   "page": 15,
+   "caption": "Lecture slide, week 9 p15: Settlement influence factor I against K and L/D"
+  },
+  "w9-rh": {
+   "file": "../../../Sources/Lecture/Week 9.pdf",
+   "page": 22,
+   "caption": "Lecture slide, week 9 p22: Correction R_h for a rigid base at depth h"
+  },
+  "w9-sup": {
+   "file": "../../../Sources/Lecture/Week 9.pdf",
+   "page": 34,
+   "caption": "Lecture slide, week 9 p34: Superposition for a pile in a group"
+  },
+  "w9-so": {
+   "file": "../../../Sources/Lecture/Week 9.pdf",
+   "page": 36,
+   "caption": "Lecture slide, week 9 p36: S_k as the sum of the effects of all piles; S_o"
+  },
+  "w9-nh": {
+   "file": "../../../Sources/Lecture/Week 9.pdf",
+   "page": 41,
+   "caption": "Lecture slide, week 9 p41: Interaction factor α = α_F N_h N_v: N_h"
+  },
+  "w9-af": {
+   "file": "../../../Sources/Lecture/Week 9.pdf",
+   "page": 42,
+   "caption": "Lecture slide, week 9 p42: Interaction factor: pile spacing effect α_F"
+  },
+  "w11-k": {
+   "file": "../../../Sources/Lecture/Week11 *",
+   "page": 8,
+   "caption": "Lecture slide, week 11 p8: Active, at-rest and passive states: K_a, K₀, K_p"
+  },
+  "w11-mohr": {
+   "file": "../../../Sources/Lecture/Week11 *",
+   "page": 10,
+   "caption": "Lecture slide, week 11 p10: Rankine: Mohr circle at failure"
+  },
+  "w11-ka": {
+   "file": "../../../Sources/Lecture/Week11 *",
+   "page": 13,
+   "caption": "Lecture slide, week 11 p13: Rankine active pressure p_a = K_aσ′_v − 2c′√K_a"
+  },
+  "w11-crack": {
+   "file": "../../../Sources/Lecture/Week11 *",
+   "page": 14,
+   "caption": "Lecture slide, week 11 p14: Tension crack and active pressure distribution"
+  },
+  "w11-sur": {
+   "file": "../../../Sources/Lecture/Week11 *",
+   "page": 22,
+   "caption": "Lecture slide, week 11 p22: Effect of a surcharge"
+  },
+  "w11-slope": {
+   "file": "../../../Sources/Lecture/Week11 *",
+   "page": 23,
+   "caption": "Lecture slide, week 11 p23: Sloping soil surface"
+  },
+  "w12-cant": {
+   "file": "../../../Sources/Lecture/Week12 *",
+   "page": 5,
+   "caption": "Lecture slide, week 12 p5: Cantilever pile wall: active and passive thrust"
+  },
+  "w12-coul": {
+   "file": "../../../Sources/Lecture/Week12 *",
+   "page": 11,
+   "caption": "Lecture slide, week 12 p11: Coulomb active wedge: wall friction δ"
+  },
+  "w12-kac": {
+   "file": "../../../Sources/Lecture/Week12 *",
+   "page": 14,
+   "caption": "Lecture slide, week 12 p14: Coulomb with cohesion: K_ac and the tension crack"
+  },
+  "w12-pas": {
+   "file": "../../../Sources/Lecture/Week12 *",
+   "page": 16,
+   "caption": "Lecture slide, week 12 p16: Coulomb passive pressure"
+  }
+ },
+ "map": {
+  "n001": [
+   "w1-terz"
+  ],
+  "n003": [
+   "w1-incl"
+  ],
+  "n004": [
+   "w2-plate"
+  ],
+  "n006": [
+   "w1-water"
+  ],
+  "n008": [
+   "w4-ip"
+  ],
+  "n011": [
+   "w4-fadum"
+  ],
+  "n012": [
+   "w1-incl"
+  ],
+  "n013": [
+   "w4-ip"
+  ],
+  "n014": [
+   "w1-incl"
+  ],
+  "n019": [
+   "w1-terz",
+   "w1-eq"
+  ],
+  "n021": [
+   "w2-qa"
+  ],
+  "n022": [
+   "w1-hansen",
+   "w1-eq"
+  ],
+  "n023": [
+   "w1-shape"
+  ],
+  "n024": [
+   "w1-depth"
+  ],
+  "n025": [
+   "w1-incl"
+  ],
+  "n033": [
+   "w1-water"
+  ],
+  "n036": [
+   "w3-nc"
+  ],
+  "n040": [
+   "w2-cn"
+  ],
+  "n042": [
+   "w2-cn"
+  ],
+  "n044": [
+   "w2-cpt",
+   "w2-qcN"
+  ],
+  "n045": [
+   "w2-cpt"
+  ],
+  "n046": [
+   "w2-cpt"
+  ],
+  "n047": [
+   "w2-plate",
+   "w2-plate2"
+  ],
+  "n051": [
+   "w3-if"
+  ],
+  "n052": [
+   "w3-stein"
+  ],
+  "n053": [
+   "w3-mu"
+  ],
+  "n054": [
+   "w3-nc",
+   "w3-oc"
+  ],
+  "n055": [
+   "w3-nc"
+  ],
+  "n056": [
+   "w3-nc"
+  ],
+  "n057": [
+   "w3-oc",
+   "w3-stages"
+  ],
+  "n060": [
+   "w3-oc",
+   "w3-oc2"
+  ],
+  "n061": [
+   "w3-nc",
+   "w3-oc2"
+  ],
+  "n062": [
+   "w3-oc",
+   "w3-oc2"
+  ],
+  "n063": [
+   "w3-nc"
+  ],
+  "n064": [
+   "w3-nc"
+  ],
+  "n065": [
+   "w4-mu"
+  ],
+  "n066": [
+   "w4-mu"
+  ],
+  "n067": [
+   "w4-mu"
+  ],
+  "n068": [
+   "w4-fadum"
+  ],
+  "n069": [
+   "w4-ip"
+  ],
+  "n071": [
+   "w4-fadum"
+  ],
+  "n072": [
+   "w4-fadum"
+  ],
+  "n073": [
+   "w4-utv"
+  ],
+  "n074": [
+   "w4-sqrt",
+   "w4-log"
+  ],
+  "n076": [
+   "w5-sec"
+  ],
+  "n077": [
+   "w4-sqrt",
+   "w4-log"
+  ],
+  "n079": [
+   "w4-utv"
+  ],
+  "n080": [
+   "w4-uz"
+  ],
+  "n081": [
+   "w4-uz"
+  ],
+  "n083": [
+   "w4-utv"
+  ],
+  "n084": [
+   "w5-sec"
+  ],
+  "n085": [
+   "w5-sec",
+   "w5-ca"
+  ],
+  "n086": [
+   "w5-sec"
+  ],
+  "n087": [
+   "w5-iz"
+  ],
+  "n089": [
+   "w11-k"
+  ],
+  "n090": [
+   "w11-ka"
+  ],
+  "n091": [
+   "w11-crack"
+  ],
+  "n092": [
+   "w11-slope"
+  ],
+  "n093": [
+   "w12-coul"
+  ],
+  "n094": [
+   "w7-eq"
+  ],
+  "n095": [
+   "w7-eq"
+  ],
+  "n096": [
+   "w7-eq"
+  ],
+  "n097": [
+   "w7-w"
+  ],
+  "n098": [
+   "w7-alpha",
+   "w8-mey"
+  ],
+  "n099": [
+   "w7-nc",
+   "w8-mey"
+  ],
+  "n106": [
+   "w7-w"
+  ],
+  "n112": [
+   "w7-alpha"
+  ],
+  "n113": [
+   "w7-alpha"
+  ],
+  "n114": [
+   "w7-nc"
+  ],
+  "n119": [
+   "w8-k"
+  ],
+  "n123": [
+   "w8-k"
+  ],
+  "n124": [
+   "w8-k"
+  ],
+  "n127": [
+   "w8-mey"
+  ],
+  "n128": [
+   "w8-mey"
+  ],
+  "n129": [
+   "w8-mey"
+  ],
+  "n133": [
+   "w8-block"
+  ],
+  "n136": [
+   "w8-lesser"
+  ],
+  "n137": [
+   "w8-block"
+  ],
+  "n138": [
+   "w8-lesser"
+  ],
+  "n140": [
+   "w8-lesser"
+  ],
+  "n142": [
+   "w8-test"
+  ],
+  "n147": [
+   "w9-rh"
+  ],
+  "n148": [
+   "w9-k"
+  ],
+  "n149": [
+   "w9-ik",
+   "w9-k"
+  ],
+  "n151": [
+   "w9-rh"
+  ],
+  "n152": [
+   "w9-k"
+  ],
+  "n153": [
+   "w9-so"
+  ],
+  "n155": [
+   "w9-af"
+  ],
+  "n156": [
+   "w9-af"
+  ],
+  "n157": [
+   "w9-nh"
+  ],
+  "n158": [
+   "w9-sup"
+  ],
+  "n159": [
+   "w9-sup",
+   "w9-so"
+  ],
+  "n163": [
+   "w3-nc"
+  ],
+  "n164": [
+   "w3-nc"
+  ],
+  "n165": [
+   "w3-if"
+  ],
+  "n166": [
+   "w4-fadum"
+  ],
+  "n174": [
+   "w5-iz"
+  ],
+  "n175": [
+   "w11-ka",
+   "w11-mohr"
+  ],
+  "n176": [
+   "w11-k"
+  ],
+  "n177": [
+   "w11-ka",
+   "w11-sur"
+  ],
+  "n178": [
+   "w11-crack",
+   "w12-coul"
+  ],
+  "n180": [
+   "w11-crack"
+  ],
+  "n182": [
+   "w11-slope"
+  ],
+  "n183": [
+   "w12-kac"
+  ],
+  "n184": [
+   "w12-kac"
+  ]
+ }
+}

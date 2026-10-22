@@ -1,0 +1,17 @@
+{
+  "about": "Every symbol in the subject. One entry per row; 'weeks' decides the track (it is matched against the weeks listed for each track in subject.json).",
+  "obtained_values": {
+    "given": "stated in the question",
+    "chart": "read off a chart or table",
+    "rule": "a fixed value or simple rule",
+    "calculated": "worked out",
+    "given or calculated": "either, depending on the question"
+  },
+  "symbols": [
+    {"id": "n001", "symbol": "P",  "meaning": "axial load", "unit": "kN", "group": "Loads", "weeks": "1", "obtained": "given", "source": "lecture 1"},
+    {"id": "n002", "symbol": "A",  "meaning": "cross-section area", "unit": "mm²", "group": "Geometry", "weeks": "1", "obtained": "given", "source": "lecture 1"},
+    {"id": "n003", "symbol": "σ",  "meaning": "stress (force per area)", "unit": "MPa", "group": "Stress", "weeks": "1", "obtained": "calculated", "source": "lecture 1"},
+    {"id": "n004", "symbol": "fy", "meaning": "yield stress", "unit": "MPa", "group": "Material", "weeks": "1", "obtained": "given", "source": "lecture 1"},
+    {"id": "n005", "symbol": "Kt", "meaning": "stress concentration factor", "unit": "–", "group": "Stress", "weeks": "2", "obtained": "chart", "source": "lecture 2"}
+  ]
+}

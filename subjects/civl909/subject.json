@@ -1,0 +1,249 @@
+{
+  "id": "civl909",
+  "name": "CIVL909 · Foundation engineering",
+  "short": "CIVL909",
+  "tracks": [
+    {
+      "id": "shallow",
+      "name": "Shallow foundations",
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "color": "#2f6bea"
+    },
+    {
+      "id": "deep",
+      "name": "Deep foundations",
+      "weeks": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "color": "#0d9a95"
+    },
+    {
+      "id": "walls",
+      "name": "Retaining walls",
+      "weeks": [
+        11,
+        12
+      ],
+      "color": "#b0561a"
+    }
+  ],
+  "weeks": {
+    "1": "Bearing capacity",
+    "2": "Allowable pressure: SPT and plate load",
+    "3": "Settlement I: immediate and consolidation amount",
+    "4": "Settlement II: stress at depth and consolidation time",
+    "5": "Settlement III: secondary compression and CPT",
+    "7": "Single piles",
+    "8": "Sand and groups",
+    "9": "Pile settlement",
+    "10": "Review",
+    "11": "Lateral earth pressure I: Rankine",
+    "12": "Lateral earth pressure II: Coulomb, retaining walls"
+  },
+  "types": {
+    "shallow": [
+      {
+        "id": "strength",
+        "name": "Which strength? (drained or undrained)",
+        "color": "#1b7f5c",
+        "blurb": "One soil, one strength law. Read the profile, choose drained or undrained from the loading speed (not the water table), then take c, φ, the unit weight and the N-factors."
+      },
+      {
+        "id": "bearing",
+        "name": "Bearing capacity",
+        "color": "#2f6bea",
+        "blurb": "Ultimate capacity q_f, factor of safety or required width: strip, square, water table, eccentric and inclined loads."
+      },
+      {
+        "id": "spt",
+        "name": "Allowable pressure from SPT",
+        "color": "#e69500",
+        "blurb": "Correct the blow counts (overburden, dilatancy), average them over the influence depth, then read q_a for a settlement limit."
+      },
+      {
+        "id": "plate",
+        "name": "Plate load test",
+        "color": "#0d9a95",
+        "blurb": "Scale a small plate's settlement up to the real footing."
+      },
+      {
+        "id": "elastic",
+        "name": "Immediate (elastic) settlement",
+        "color": "#d62f7d",
+        "blurb": "Elastic settlement with influence factors: layered clay, loaded areas split into rectangles."
+      },
+      {
+        "id": "stress",
+        "name": "Stress increase at depth",
+        "color": "#5b45d6",
+        "blurb": "Vertical stress under a loaded rectangle with influence factors and superposition."
+      },
+      {
+        "id": "voidratio",
+        "name": "Void ratio and stress history",
+        "color": "#8a5a2b",
+        "blurb": "Final void ratio when the soil reloads: over-consolidated, crossing the pre-consolidation pressure, normally consolidated."
+      },
+      {
+        "id": "consol",
+        "name": "Consolidation settlement",
+        "color": "#9340e8",
+        "blurb": "One-dimensional settlement of a clay layer from its stress change (C_c, C_r, e_0, OCR)."
+      },
+      {
+        "id": "time",
+        "name": "Consolidation time",
+        "color": "#c0392b",
+        "blurb": "How long it takes: time factor, drainage path, scaling a lab sample or an earlier reading to the field."
+      },
+      {
+        "id": "secondary",
+        "name": "Secondary compression",
+        "color": "#6b7780",
+        "blurb": "Creep after primary consolidation ends: C_alpha and the time ratio."
+      },
+      {
+        "id": "cpt",
+        "name": "CPT / Schmertmann settlement",
+        "color": "#1b8a5a",
+        "blurb": "Settlement of sand from a cone profile: strain influence factor, E = 2.5 q_c, layer by layer."
+      },
+      {
+        "id": "concept",
+        "name": "Concept (multiple choice)",
+        "color": "#4a82f5",
+        "blurb": "Recognise the idea behind the formula."
+      }
+    ],
+    "deep": [
+      {
+        "id": "playground",
+        "name": "Playground",
+        "color": "#6b7780",
+        "blurb": "Free exploration of every input."
+      },
+      {
+        "id": "capacity-clay",
+        "name": "Single pile in clay",
+        "color": "#0d9a95",
+        "blurb": "Alpha method for shaft resistance, N_c for the base."
+      },
+      {
+        "id": "capacity-sand",
+        "name": "Single pile in sand",
+        "color": "#e69500",
+        "blurb": "Meyerhof from SPT, or beta from effective stress."
+      },
+      {
+        "id": "design-length",
+        "name": "Design the length L",
+        "color": "#2f6bea",
+        "blurb": "Find the pile length that carries a given load."
+      },
+      {
+        "id": "group",
+        "name": "Pile group",
+        "color": "#9340e8",
+        "blurb": "n times P_u against the equivalent block; efficiency; allowable load."
+      },
+      {
+        "id": "settlement",
+        "name": "Pile settlement",
+        "color": "#d62f7d",
+        "blurb": "Elastic settlement of single piles and groups (Poulos factors)."
+      }
+    ],
+    "walls": [
+      {
+        "id": "rankine",
+        "name": "Rankine pressures",
+        "color": "#b0561a",
+        "blurb": "K_a and K_p, pressure at each depth, surcharge, active behind and passive in front."
+      },
+      {
+        "id": "layers",
+        "name": "Layers, water and thrust",
+        "color": "#2f6bea",
+        "blurb": "Layered soils, pore water, total thrust and the height of its line of action."
+      },
+      {
+        "id": "cohesive",
+        "name": "Cohesive soil and tension cracks",
+        "color": "#8a5a2b",
+        "blurb": "z₀ = 2c/(γ√K_a), critical depth 4c_u/γ, undrained (total stress) analysis."
+      },
+      {
+        "id": "slope",
+        "name": "Sloping backfill",
+        "color": "#0d9a95",
+        "blurb": "K_a for a surface inclined at β; pressure parallel to the slope."
+      },
+      {
+        "id": "coulomb",
+        "name": "Coulomb and wall friction",
+        "color": "#9340e8",
+        "blurb": "Wall friction δ, wall adhesion, inclined wall back, trial wedge."
+      },
+      {
+        "id": "embedded",
+        "name": "Embedded walls and stability",
+        "color": "#c0392b",
+        "blurb": "Cantilever sheet piles, factor of safety on strength and embedment; gravity wall overturning, sliding, bearing."
+      }
+    ]
+  },
+  "start": {
+    "track": "shallow",
+    "problem": "w1q4"
+  },
+  "globals": {
+    "UI_CONFIG": "adapters/piles/interface.config.json"
+  },
+  "notation": "notation.json",
+  "quiz": [
+    "quiz/midsession_2026.json",
+    "quiz/bank_shallow.json",
+    "quiz/bank_deep.json",
+    "quiz/bank_walls.json"
+  ],
+  "scripts": [
+    "adapters/piles/src/config.js",
+    "adapters/piles/src/util.js",
+    "adapters/piles/src/engine.js",
+    "adapters/piles/src/settle.js",
+    "adapters/piles/problems/_base.js",
+    "adapters/piles/problems/play.js",
+    "adapters/piles/problems/w7.js",
+    "adapters/piles/problems/w8.js",
+    "adapters/piles/problems/w9.js",
+    "adapters/piles/problems/quiz.js",
+    "adapters/piles/problems/w10.js",
+    "adapters/piles/src/meta.js",
+    "adapters/piles/src/generator.js",
+    "adapters/piles/src/build.js",
+    "adapters/piles/src/charts.js",
+    "adapters/piles/src/program.js",
+    "adapters/piles/src/panel.js",
+    "adapters/piles/adapter.js",
+    "problems/**/*.js",
+    "exam/templates.js"
+  ],
+  "exam": "exam/blueprint.json",
+  "media": "media",
+  "pwa": {
+    "short": "CIVL909",
+    "theme": "#12171a",
+    "background": "#12171a",
+    "icons": "pwa"
+  }
+}

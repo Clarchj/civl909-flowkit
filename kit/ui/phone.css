@@ -1,0 +1,44 @@
+/* ================= KIT · PHONE (iPhone 12 and anything narrow): 390 × 844 points, notch on top, home bar below =================
+   What changes under 700 px:  the tabs become a bottom tab bar (the thumb reaches it, and nothing scrolls off to the right);  the toolbar keeps five things and puts the rest under “⋯”;
+   the answer line shows two lines;  the gate board is a one-line summary that opens as a full sheet;  every tap target is at least 40 px;  inputs are 16 px so iOS never zooms the page on focus;
+   safe areas keep content clear of the notch and the home bar.  Everything else (the map, the companion) already adapts below 900 px. */
+html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+body{height:100vh;height:100dvh}
+#morebtn{display:none}
+@media (max-width:700px){
+  :root{--tabh:56px;--sat:env(safe-area-inset-top,0px);--sab:env(safe-area-inset-bottom,0px)}
+  body{padding-bottom:calc(var(--tabh) + var(--sab))}
+  input,select,textarea{font-size:16px!important}
+  button{min-height:40px}
+  /* header: brand and the three tracks scroll sideways inside their own strip; the page itself never does */
+  #top{height:calc(46px + var(--sat));padding-top:var(--sat);padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px));gap:8px;overflow-x:auto;scrollbar-width:none}
+  #top::-webkit-scrollbar{display:none}
+  #brand span{display:none}#tracks button small{display:none}#tracks button{padding:8px 11px;min-height:36px}
+  #nlkbtn{padding:6px 12px;margin-left:auto}#nlkbtn kbd{display:none}#nlkbtn span{display:none}#nlkbtn:before{content:'⌕';font-size:18px;line-height:1}
+  /* the tabs move to the bottom */
+  #tabs{position:fixed;left:0;right:0;bottom:0;z-index:30;height:calc(var(--tabh) + var(--sab));padding:0 env(safe-area-inset-right,0px) var(--sab) env(safe-area-inset-left,0px);margin:0;gap:0;background:var(--panel);border-top:1px solid var(--bd)}
+  #tabs button{flex:1;height:var(--tabh);min-height:0;padding:0 2px;border-bottom:0;border-top:3px solid transparent;font-size:13px}
+  #tabs button.on{border-top-color:var(--trk);color:var(--ink)}
+  /* toolbar: companion, previous, the problem, next, fit, and ⋯ for the rest */
+  #bar{padding:6px 10px;gap:6px}
+  #pcur{flex:1 1 120px;min-width:0}
+  #findwrap,#toolbtn,#keybtn,#grpbtn,#wirebtn,#undobtn,#bar [data-act=sel],#bar [data-act=tidy]{display:none}
+  #bar.more #findwrap{display:block;flex:1 1 100%;order:20}#bar.more #toolbtn,#bar.more #keybtn,#bar.more #grpbtn,#bar.more #wirebtn,#bar.more #undobtn,#bar.more [data-act=sel],#bar.more [data-act=tidy]{display:inline-flex;order:21}
+  #morebtn{display:inline-flex;align-items:center;justify-content:center;font:inherit;border:1px solid var(--bd);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 14px;cursor:pointer}#bar.more #morebtn{background:var(--ink);color:var(--card)}
+  /* the answer line: two lines, tap to read all of it */
+  #goal{flex:1 1 100%;order:30;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:var(--fs-2);line-height:1.35}#goal.open{display:block}
+  /* the gate board: a summary line, and a sheet when opened */
+  #board{max-height:none;overflow:visible;padding:6px 10px}
+  #board .bd-head{gap:8px}#board .bd-tog{padding:6px 14px}
+  #board .bd-strip{margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  #board.sheet{position:fixed;left:0;right:0;top:calc(46px + var(--sat));bottom:calc(var(--tabh) + var(--sab));z-index:35;overflow:auto;max-height:none;padding:10px 12px;border-top:1px solid var(--bd);box-shadow:0 -6px 30px rgba(0,0,0,.35)}
+  #board.sheet .bd-strip{display:block;-webkit-line-clamp:unset;overflow:visible}
+  #board .bd-chip{padding:8px 14px;min-height:38px}
+  /* the companion sits above the tab bar */
+  #comp{width:100%;top:0;bottom:0;z-index:28}
+  #comptabs{overflow-x:auto;scrollbar-width:none}#comptabs button{min-height:44px;white-space:nowrap;padding-left:10px;padding-right:10px}#compbody{padding-bottom:24px}
+  .tdc{padding:10px 12px}
+  #zoom{bottom:calc(10px)}#zoom button{min-height:44px;min-width:44px}
+  .page{padding:12px 12px calc(16px)}
+}
+@media (display-mode:standalone){html{background:var(--bg)}}

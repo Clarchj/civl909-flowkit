@@ -1,0 +1,28 @@
+{
+  "title": "CIVL909 final examination",
+  "time": "3 hours · closed book · equations and charts provided",
+  "intro": "Shallow foundations, pile foundations and retaining walls. Section A draws multiple-choice questions from the question banks by pattern; Section B draws one numerical question per topic from a pool of templates whose numbers are re-drawn each time.",
+  "sections": [
+    { "id": "A", "title": "Section A · Multiple choice", "note": "one mark or more each; options are shuffled", "kind": "mcq", "slots": [
+      { "label": "Failure modes and foundation types", "patterns": ["modes"], "n": 1 },
+      { "label": "Bearing capacity: terms, shape, water, net", "patterns": ["terms", "shape", "water-bc", "net"], "n": 2 },
+      { "label": "SPT, CPT and allowable pressure", "patterns": ["spt", "allow", "cpt"], "n": 2 },
+      { "label": "Elastic settlement and stress at depth", "patterns": ["elastic", "stress"], "n": 1 },
+      { "label": "Consolidation settlement and void ratio", "patterns": ["consol", "voidr", "secondary"], "n": 2 },
+      { "label": "Consolidation time", "patterns": ["time"], "n": 2 },
+      { "label": "Piles: types, capacity in clay and sand", "patterns": ["pile-concept", "pile-clay", "pile-sand"], "n": 2 },
+      { "label": "Pile groups, settlement, piled rafts", "patterns": ["pile-group", "pile-settle", "group-settle", "piled-raft"], "n": 2 },
+      { "label": "Rankine pressures, layers, cracks", "patterns": ["rankine", "wall-layers", "wall-cohesive"], "n": 2 },
+      { "label": "Coulomb and embedded walls", "patterns": ["coulomb", "embedded"], "n": 1 }
+    ] },
+    { "id": "B", "title": "Section B · Numerical problems", "note": "each question is a different topic; the numbers change with the version", "kind": "numeric", "slots": [
+      { "label": "Bearing capacity (shallow)", "pool": ["t_bc_clay", "t_bc_sand", "t_bc_ecc", "t_bc_gross"] },
+      { "label": "Allowable pressure and plate load", "pool": ["t_allow_spt", "t_plate"] },
+      { "label": "Settlement amount", "pool": ["t_consol_nc", "t_consol_oc", "t_secondary", "t_void", "t_dewater", "t_cpt"] },
+      { "label": "Time of consolidation and stress at depth", "pool": ["t_time_lab", "t_time_sqrt", "t_time_ratio", "t_stress"] },
+      { "label": "Pile capacity", "pool": ["t_pile_clay", "t_pile_sand"] },
+      { "label": "Pile groups and settlement", "pool": ["t_group", "t_pile_settle", "t_group_settle"] },
+      { "label": "Retaining walls", "pool": ["t_wall_slope", "t_wall_water", "t_wall_layers", "t_wall_press", "t_wall_crit"] }
+    ] }
+  ]
+}

@@ -1,0 +1,11 @@
+# generated: the workflow rebuilds dist/ from the sources
+dist/
+__pycache__/
+*.pyc
+# the Anki decks are rebuilt by anki_export.py and carry the lecture slides a second time
+*.apkg
+# local scratch
+.claude/
+*.log
+Thumbs.db
+.DS_Store
